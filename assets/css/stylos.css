@@ -1,0 +1,153 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fcf9f3;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    padding-bottom: 16px;
+    font-size: 22px;
+    color: rgb(29, 22, 10);
+}
+
+.subtitle{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 18px;
+    color: #0e0708;
+}
+
+.subtitle2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 22px;
+    color: #0e0708;
+    margin-left: 150px;
+}
+
+.text{
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+}
+.info{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #FDF7EC;
+    padding: 10px 50px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+    height: 60px;
+}
+.catalogo h1{
+    position: relative;
+    text-align: center;
+}
+
+.sabores,.adornos{
+    width: 50%;
+    height: 100px;
+    color: #000;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.contact h1{
+    position: relative;
+    text-align: center;
+}
+
+form{
+    width: 650px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+input[type=checkbox]{
+    height: 20px;
+    width: 200px;
+    margin-right: -80px;
+}
+
+input::placeholder{
+    padding-left: 16px;
+}
+
+.btn{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    background: #e4d5d8;
+    color: #020202;
+    border: none;
+    cursor: pointer;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing:  3px;
+    align-content: center;
+}
+
+th,td{
+    padding: 12px;
+    border-bottom: 2px solid #000;
+    height: auto;
+}
+
+td{
+    font-size: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(244,71,100,.29);
+}
